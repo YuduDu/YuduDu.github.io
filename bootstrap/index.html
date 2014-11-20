@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+		<title>Big Hero 6</title>
+		<link href="dist/css/bootstrap.min.css" rel="stylesheet">
+		<link href="style.css" rel="stylesheet">
+   		<script src="jquery-2.1.1.min.js"></script>
+   		<script src="dist/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+
+	
+	<!--Navbar-->
+	<nav class="navbar navbar-default navbar-static-top navbar-inverse" role="navigation">
+		<div class="navbar-header">
+			<a class="navbar-brand">Exploration 5</a>
+		</div>
+		<div>
+		<ul class="nav navbar-nav">
+			<li class="active"><a href="index.html">Home</a></li>
+			<li><a href="http://www.fandango.com/bighero6_170064/movietimes?location=Columbia,%20MO">Movie Times in Columbia</a></li>
+			<li data-toggle="modal" data-target="#myModal"><a>About</a></li>
+
+		</ul>
+		<form class="navbar-form fropdown navbar-right" role="account">
+         	<button type="button" class="btn btn-default dropdown-toggle " data-toggle="dropdown">
+  			<span class="glyphicon glyphicon-user"></span> Yudu Du
+			</button>
+			<ul class="dropdown-menu" role="menu">
+				<li><a href="announcement.html">Account Info</a></li>
+				<li><a href="announcement.html">Upload Account</a></li>
+				<li class="divider"></li>
+				<li><a href="announcement.html">Sign out</a></li>
+			</ul>
+      </form> 
+		</div>
+	</nav>
+	
+	<!--About page-->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+   		<div class="modal-dialog">
+      		<div class="modal-content">
+         		<div class="modal-header">
+            		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                  		&times;
+            		</button>
+            		<h4 class="modal-title" id="myModalLabel">About</h4>
+         		</div>
+         		<div class="modal-body lead">This page is build by Yudu Du for exploration 5 using bootstrap. I went to watch the Big Hero 6 in the movie theater. This is the first movie I watched in USA. And the movie is awesome, it's cool and also touched. So I build this page to introduce this film to others.</div>
+			</div>
+		</div>
+	</div>
+	<!--page-->
+	
+	<!--Welcome-->
+	<div class="jumbotron" style="background:url(welcomebackground.jpg); background-size:100% 100%; background-repeat:no-repeat;">
+      <h1>BIG HERO 6</h1>
+      <p>ARE YOU SATISFIED WITH YOUR CARE?</p>
+	</div>
+	
+	<div class="container">
+	
+	<!--Characters shower-->
+	
+	<div id="Carousel" class="carousel slide" data-interval="4000" data-pause="false">
+		<ol class="carousel-indicators" >
+			<li data-target="#Carousel" data-slide-to="0" class="active"></li>
+			<li data-target="#Carousel" data-slide-to="1"></li>
+			<li data-target="#Carousel" data-slide-to="2"></li>
+			<li data-target="#Carousel" data-slide-to="3"></li>
+			<li data-target="#Carousel" data-slide-to="4"></li>
+			<li data-target="#Carousel" data-slide-to="5"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="item active">
+					<img src="http://movies.disney.com/big-hero-6/content/img/home/characters/baymax.png" alt="baymax">
+				<div class="carousel-caption">
+				<h1>Baymax</h1>
+				<p class="lead">An inflatable robot built by Tadashi to serve as a healthcare companion. Baymax views the world from one perspective—he just wants to help people, he sees Hiro as his patient.</p>
+				</div>
+				
+			</div>
+			<div class="item">
+				<img src="http://movies.disney.com/big-hero-6/content/img/home/characters/hiro.png" alt="Hiro" height="100%" weight="100%">
+				
+				<div class="carousel-caption">
+				<h1 >Hiro</h1>
+				<p class="lead">A 14-year-old robotics prodigy who has already graduated high school. His older brother Tadashi inspires Hiro to gain admission to San Fransokyo's Institute of Technology.</p>
+				</div>
+			</div>
+			<div class="item">
+				
+				<img src="http://movies.disney.com/big-hero-6/content/img/home/characters/lemon.png" alt="Lemon">
+			
+				<div class="carousel-caption">
+				<h1>Lemon</h1>
+				<p class="lead">a quirky chemistry whiz at San Fransokyo Institute of Technology. She’s a glass-is-half-full kind of person. But she has this mad-scientist quality with a twinkle in her eye—there’s more to Honey than it seems.</p>
+				</div>
+			</div>
+			<div class="item">
+				<img src="http://movies.disney.com/big-hero-6/content/img/home/characters/gogo.png" alt="Gogo">
+				<div class="carousel-caption">
+				<h1 >Gogo</h1>
+				<p class="lead">A tough, athletic, adrenaline junkie who is developing electromagnetic wheel axles at San Fransokyo Institute of Technology.</p>
+				</div>
+			</div>
+			<div class="item">
+			
+				<img src="http://movies.disney.com/big-hero-6/content/img/home/characters/fred.png" alt="Fred" align="center">
+		
+				<div class="carousel-caption">
+				<h1>Fred</h1>
+				<p class="lead">A laid-back comic-book fan who also plays the mascot at San Fransokyo Institute of Technology. He’s a real student of comedy. There are a lot of layers to his performance, so Fred ended up becoming a richer character than anyone expected.</p>
+				</div>
+			</div>
+			<div class="item">
+			
+				<img src="http://movies.disney.com/big-hero-6/content/img/home/characters/wasabi.png" alt="Wasabi">
+	
+				<div class="carousel-caption">
+				<h1>Wasabi</h1>
+				<p class="lead">a smart, slightly neurotic, largely built neat-freak and an expert on laser cutting at San Fransokyo Institute of Technology. </p>
+				</div>
+			</div>
+		</div>
+		<a class="carousel-control left" href="#Carousel" data-slide="prev"></a>
+		   <a class="carousel-control right" href="#Carousel" data-slide="next"></a>
+		</div>
+	
+	<script>
+		$("#Carousel").carousel('cycle');
+	</script>
+	
+	<!--Kinds of imformation about the movie: plot, trailer, cast and Trivia-->
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-2" id="myScrollspy">
+            	<ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="1150">
+                	<li><a href="#Plot">Plot</a></li>
+                	<li><a href="#Trailer">Trailer</a></li>
+                	<li><a href="#Cast">Cast</a></li>
+                	<li><a href="#Trivia">Trivia</a></li>
+            	</ul>
+            </div>
+
+			
+			<!--Information contest-->
+
+			<div class="col-xs-10" id="contest">
+				<!--Plot-->
+				<div class="panel panel-default" id="Plot">
+   					<div class="panel-heading">
+   					<div class="media"><a class="pull-left" data-toggle="collapse" href="#collapseOne">
+      						<img class="media-object" src="05.gif" alt="Gif" weight="70px" height="70px"></a>
+   							<div class="media-body">
+   							<a class="pull-left" data-toggle="collapse" href="#collapseOne"><h1>Plot</h1></a>
+   							</div>
+					</div>	
+						
+   					</div>
+   					<div class="panel-collapse collapse in" id="collapseOne">
+   					<div class="panel-body">
+   					<div data-spy="scroll" data-target="#navbar-example" data-offset="0" style="height:400px;overflow:auto; position: relative;">
+   						
+      							<p class="lead">Hiro Hamada lives in the futuristic city of San Fransokyo. Hiro is a 14-year-old robotics genius who spends his time participating in back alley robot fights. His older brother, Tadashi, worried that Hiro is wasting his potential, takes Hiro to the robotics lab at his university, where Hiro meets Tadashi's friends, GoGo Tomago, Wasabi, Honey Lemon and Fred, as well as Baymax, a personal healthcare robot Tadashi created. Amazed, Hiro decides to apply to the school. He presents his project--microbots, swarms of tiny robots that can link together in any arrangement imaginable--at an annual exhibition to gain admission. Professor Callaghan, the head of the program, is impressed, and Hiro gets in. When a fire breaks out at the university, Tadashi rushes in to rescue Callaghan, but the building explodes and both are killed. As a result of losing his brother, Hiro secludes himself from others.</p>
+   								<p class="lead">One day, Hiro accidentally activates Baymax and discovers a single microbot left in his jacket. Baymax believes the microbot is trying to go somewhere and follows it to an abandoned warehouse, where he and Hiro discover that someone has been mass-producing Hiro's microbots. They are attacked by a masked man controlling the microbots telepathically. Realizing this man has stolen his project, Hiro decides to catch him and upgrades Baymax with armor and a battle chip. After the masked man attacks Hiro, Gogo, Wasabi, Honey and Fred, the group decides to join Hiro in the fight, and form a superhero team.</p>
+   								<p class="lead">Baymax locates the masked man on a quarantined island. There, the group discovers a former lab of Krei Tech, a prestigious robotics company, that was experimenting with teleportation technology. The test went awry when the human test pilot vanished inside an unstable portal. The masked man is revealed to be Callaghan, who explains he started the fire so he could steal Hiro's microbots. Realizing that Tadashi died in vain, Hiro angrily removes Baymax's healthcare chip, leaving him with only the battle chip, and orders him to destroy Callaghan. Baymax almost does so until Honey manages to insert his healthcare chip back in. Angry at the group for preventing his revenge, Hiro goes home but breaks down when Baymax asks him if killing Callaghan will make him feel better. To soften Hiro's loss, Baymax plays humorous clips of Tadashi running tests on him during Baymax's development. Hiro realizes that killing Callaghan is not what Tadashi would have wanted and makes amends with his friends.</p>
+   								<p class="lead">The group discovers that the test pilot was Callaghan's daughter Abigail and realize that Callaghan is seeking revenge on Alistair Krei, the president of Krei Tech, whom he blames for her death. They save Krei and destroy the microbots, but the portal remains active, becoming increasingly unstable. Baymax detects Abigail from inside the portal and he and Hiro rush in to save her. On their way out, Baymax's armor is damaged and he realizes the only way to save Hiro and Abigail is to stay behind to propel them forward with his rocket fist. Hiro refuses to leave Baymax behind, but Baymax insists until Hiro tearfully deactivates him. Hiro and Abigail make it back, and Callaghan is arrested.</p>
+   								<p class="lead">Some time later, as Hiro is finally moving on, he discovers Baymax's healthcare chip, which contains his entire personality, in his rocket fist. Delighted, Hiro rebuilds Baymax and they happily reunite. The six friends continue their exploits through the city, fulfilling Tadashi's dream of helping those in need.</p>
+   					
+   						
+   					</div>
+   					</div>
+  					</div>
+				</div>
+				<!--Trialler-->
+				<div class="panel panel-default" id="Trailer">
+					<div class="panel-heading">
+						   	<div class="media"><a class="pull-left" data-toggle="collapse" href="#collapseTwo">
+      							<img class="media-object" src="04.gif" alt="Gif" weight="70px" height="70px"></a>
+   							<div class="media-body"><a class="pull-left" data-toggle="collapse" href="#collapseTwo"><h1>Trailer</h1></a></div>
+   							</div>
+					</div>
+					<div class="panel-collapse collapse in" id="collapseTwo">
+						<div class="media">
+							<iframe width="560" height="315" src="http://www.youtube.com/embed/z3biFxZIJOQ" frameborder="0" allowfullscreen></iframe>
+							<iframe width="560" height="315" src="http://www.youtube.com/embed/8IdMPpKMdcc" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+				<!--Cast-->
+				<div class="panel panel-default" id="Cast">
+					<div class="panel-heading">
+						<div class="media"><a class="pull-left" data-toggle="collapse" href="#collapseThree">
+      							<img class="media-object" src="09.jpg" alt="Gif" weight="70px" height="70px"></a>
+   							<div class="media-body"><a class="pull-left" data-toggle="collapse" href="#collapseThree"><h1>Cast</h1></a></div>
+   						</div>
+					</div>
+					<div class="panel-collapse collapse in" id="collapseThree">
+						<div class="panel-body">
+							<table class="table table-striped">
+  								<thead>
+      								<tr>
+         							<th>Role</th>
+         							<th>Voice By</th>
+      								</tr>
+   								</thead>
+   								<tbody>
+      								<tr>
+         							<td>Baymax</td>
+         							<td><img src="http://www.movpins.com/big/MV5BNzk4MDI4ODQwOF5BMl5BanBnXkFtZTcwNTkzNTIxNw/scott-adsit-at-event-of-w.e.-(2011).jpg" height="40px" weight="40px">Scott Adsit</td>
+      								</tr>
+      								<tr>
+         							<td>Hiro</td>
+         							<td><img src="http://ia.media-imdb.com/images/M/MV5BMTQwMzY3NTA2N15BMl5BanBnXkFtZTcwMDY5MTA0OQ@@._V1_SX214_CR0,0,214,317_AL_.jpg" height="40px" weight="40px">Ryan Potter</td>
+      								</tr>
+      								<tr>
+         							<td>Tadashi</td>
+         							<td><img src="http://ia.media-imdb.com/images/M/MV5BMjEyNDk1MjU4MF5BMl5BanBnXkFtZTgwMDYyNTU2MDE@._V1_SX214_CR0,0,214,317_AL_.jpg" height="40px" weight="40px">Daniel Henny</td>
+      								</tr>
+      								<tr>
+      								<td>Fred</td>
+      								<td><img src="http://ia.media-imdb.com/images/M/MV5BMjIwMzI0NTEwMF5BMl5BanBnXkFtZTcwMjk4MDkxNA@@._V1_SX214_CR0,0,214,317_AL_.jpg" height="40px" weight="40px">T.J. Miller</td>
+      								</tr>
+      								<tr>
+      								<td>Gogo</td>
+      								<td><img src="http://ia.media-imdb.com/images/M/MV5BMTkxNjM1NzUyNV5BMl5BanBnXkFtZTgwMzc1NzEzMTE@._V1_SX214_CR0,0,214,317_AL_.jpg" height="40px" weight="40px">Jamie Chung</td>
+      								</tr>
+      								<tr>
+      								<td>Wasabi</td>
+      								<td><img src="http://ia.media-imdb.com/images/M/MV5BMjY0MTA3MzQwM15BMl5BanBnXkFtZTcwMzU4OTc1Mg@@._V1_SX214_CR0,0,214,317_AL_.jpg" height="40px" weight="40px">Damon Wayans Jr.</td>
+      								</tr>
+      								<tr>
+      								<td>Lemon</td>
+      								<td><img src="http://ia.media-imdb.com/images/M/MV5BMTMzMDIzODIzNV5BMl5BanBnXkFtZTcwNDQyNjM2Mw@@._V1_SX214_CR0,0,214,317_AL_.jpg" height="40px" weight="40px">Genesis Rodriguez</td>
+      								</tr>
+      							</tbody>
+      						</table>
+      			
+						</div>
+					</div>
+				</div>
+				<!--Info-->
+				<div class="panel panel-default" id="Trivia">
+					<div class="panel-heading">
+						<div class="media"><a class="pull-left" data-toggle="collapse"  href="#collapseFour">
+      							<img class="media-object" src="12.gif" alt="Gif" weight="70px" height="70px"></a>
+   							<div class="media-body"><a class="pull-left" data-toggle="collapse" href="#collapseFour"><h1>Trivia</h1></a></div>
+   						</div>
+					</div>
+					<div class="panel-collapse collapse in" id="collapseFour">
+					<div class="panel-body">
+						<div class="well">The film mainly draws from Big Hero 6's mini-series, where Wasabi and Fred first appeared, replacing Silver Samurai and others.</div>
+						<div class="well">The part where Fred likes to make movies about himself in a rubber suit stomping on boxes may have been inspired from his original power: the ability to transform into a giant monster that can stomp down houses.</div>
+						<div class="well">Although it is based on a Marvel comic of the same name, there are many changes, including character names, the setting, the ethnicities of characters, the backstories, and several plot points:
+Several characters don't appear in the film due to copyright issues.
+The character originally known as Wasabi No-Ginger has his last name officially dropped from the film, and is simply referred to as Wasabi. Many official Disney merchandise and sites, however, still refer to him as "Wasabi No-Ginger".</div>
+						<div class="well">Although based on a Marvel property, Big Hero 6 is not part of the Marvel Cinematic Universe.</div>
+						<div class="well">This is the first Walt Disney Animation Studios feature to have the "Created and Produced at Walt Disney Animation Studios, Burbank, California" credit at the end.
+Pixar does the same thing in all their movies, except is says "Created and Produced at Pixar Animation Studios, Emeryville, California."</div>
+						
+						
+					</div>
+					</div>
+				</div>
+				</div>
+
+</div>
+	</div>
+	</div>
+	</body>
+</html>
