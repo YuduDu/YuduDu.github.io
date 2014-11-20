@@ -21,6 +21,7 @@
     }
     ul.nav-tabs.affix{
         top: 30px; /* Set the top position of pinned element */
+        bottom: 1500px;
     }
     
 
